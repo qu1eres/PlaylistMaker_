@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="?attr/settingsBackgroundColor"
     android:orientation="vertical"
     android:id="@+id/main"
     android:paddingTop="10dp">
@@ -20,18 +20,18 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
-            android:background="@drawable/button_background"
+            android:stateListAnimator="@null"
             android:id="@+id/settings_button_back"
             app:icon="@drawable/settings_button_back"
             app:iconGravity="textEnd"
-            app:iconTint="@color/black"
+            app:iconTint="?attr/settingsIconBackColor"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="?attr/settingsTextColor"
             android:text="@string/button_settings"
-            android:textColor="@color/black"
             android:textSize="@dimen/heading_text"
             android:paddingStart="10dp" />
 
@@ -48,19 +48,18 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/button_indent"
             android:orientation="horizontal"
-            android:background="@drawable/button_background"
             android:gravity="center_vertical"
             android:paddingVertical="12dp"
             android:paddingHorizontal="16dp">
 
             <TextView
+                android:textColor="?attr/settingsTextColor"
+                android:fontFamily="@font/ys_display_regular"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_settings_dark_mode"
-                android:textSize="@dimen/settings_button_text"
-                android:textColor="@color/black"
-                android:textAllCaps="false"/>
+                android:textSize="@dimen/settings_button_text" />
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch_compat"
@@ -74,33 +73,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_settings_sharing"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             app:icon="@drawable/sharing"
-            app:iconPadding="128dp"
-            app:iconTint="@color/gray" />
+            app:iconPadding="128dp" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/SettingsActivityStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_settings_support"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             app:icon="@drawable/support"
-            app:iconPadding="152dp"
-            app:iconTint="@color/gray" />
+            app:iconPadding="152dp" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/SettingsActivityStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_settings_user_agreement"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             app:icon="@drawable/user_agreement"
-            app:iconPadding="88dp"
-            app:iconTint="@color/gray" />
+            app:iconPadding="93dp" />
     </LinearLayout>
 
 </LinearLayout>

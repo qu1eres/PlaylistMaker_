@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/blue"
     android:orientation="vertical"
+    android:background="@color/blue"
     android:padding="@dimen/fab_margin">
 
     <TextView
@@ -25,21 +25,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_search"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             android:id="@+id/main_menu_search"
-            app:icon="@drawable/search"
-            app:iconTint="@color/black" />
+            app:icon="@drawable/search" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/ButtonMainActivityStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_media"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             android:id="@+id/main_menu_media"
-            app:iconTint="@color/black"
             app:icon="@drawable/media" />
 
         <com.google.android.material.button.MaterialButton
@@ -47,11 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_settings"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             android:id="@+id/main_menu_settings"
-            app:icon="@drawable/settings"
-            app:iconTint="@color/black" />
+            app:icon="@drawable/settings" />
     </LinearLayout>
 
 </LinearLayout>

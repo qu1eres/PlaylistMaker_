@@ -21,7 +21,7 @@ class SettingsActivity : AppCompatActivity() {
 
         val buttonSettings = findViewById<MaterialButton>(R.id.settings_button_back)
         buttonSettings.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
     }
 }
