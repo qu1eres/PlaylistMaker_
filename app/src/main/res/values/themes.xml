@@ -12,10 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/black</item>
         <item name="android:navigationBarColor">@color/black</item>
+        <item name="mainActivityBackgroundColor">@color/blue</item>
         <item name="settingsTextColor">@color/black</item>
         <item name="settingsIconBackColor">@color/black</item>
         <item name="settingsBackgroundColor">@color/white</item>
-        <item name="colorAccent">@color/switch_light_theme_color</item>
+        <item name="colorAccent">@color/blue</item>
         <item name="settingsIconTint">@color/gray</item>
         <!-- Customize your theme here. -->
     </style>
