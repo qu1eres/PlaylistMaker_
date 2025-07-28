@@ -7,6 +7,7 @@
     <string name="button_settings_support">Написать в поддержку</string>
     <string name="button_settings_user_agreement">Пользовательское соглашение</string>
     <string name="button_settings_dark_mode">Темная тема</string>
+    <string name="search_title">Поиск</string>
     <string name="share_message">Курсы: %s</string>
     <string name="share_link">https://practicum.yandex.ru/android-developer/</string>
 

@@ -17,7 +17,6 @@
         <item name="settingsIconBackColor">@color/black</item>
         <item name="settingsBackgroundColor">@color/white</item>
         <item name="colorAccent">@color/blue</item>
-        <item name="settingsIconTint">@color/gray</item>
         <!-- Customize your theme here. -->
     </style>
 

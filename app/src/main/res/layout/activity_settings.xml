@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:paddingBottom="@dimen/button_indent">
@@ -40,14 +40,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="360dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="24dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/button_indent"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:paddingVertical="12dp"
